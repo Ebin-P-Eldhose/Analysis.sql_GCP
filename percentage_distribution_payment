@@ -1,0 +1,2 @@
+SELECT payment_type, count(payment_type) as number_of_payment_types
+FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips` GROUP BY 1 order by 2 DESC 
