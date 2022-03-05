@@ -1,0 +1,3 @@
+SELECT SUM(fare) AS txi_fare_cash
+FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips` 
+WHERE payment_type='Cash'AND company='Choice Taxi Association'
