@@ -1,0 +1,2 @@
+SELECT AVG(fare) AS avg_fare_credit_card FROM `bigquery-public-data.chicago_taxi_trips.taxi_trips` WHERE payment_type='Credit Card'
+
